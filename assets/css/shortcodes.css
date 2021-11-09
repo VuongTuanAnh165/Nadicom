@@ -1,34 +1,4 @@
-/**
-  *	Button
-  * Headings
-  * Icon Box
-  * Half Background
-  * List
-  * Image box
-  * Carousel Control
-  * Carousel thumb
-  * Parallax
-  * Project
-  * Testimonials
-  * Quote
-  * Tabs
-  * Accordions
-  * Partner
-  * Progress Bar
-  * Request
-  * Contact Form 7
-  * Filter
-  * Maps
-  * Pricing
-  * Counter
-  * Team
-  * Content wrap
-  * Gallery
-  * Project detail
-  * Lines
-*/
 
-/* Button
 -------------------------------------------------------------- */
 .themesflat-button { display: inline-block; font-size: 14px;  font-weight: 600; color: #fff; background-color: transparent; padding: 14px 40px;  font-family: 'Montserrat', sans-serif; letter-spacing: 0.5px;  position: relative; z-index: 1; overflow: hidden; }
 .themesflat-button.font-default { font-family: 'Open Sans', sans-serif; font-size: 14px; font-weight: 400; padding: 13px 25px; letter-spacing: 0px; }
@@ -88,13 +58,13 @@
 .themesflat-headings .sep.has-width.w80 { width: 80px; height: 2px; }
 .themesflat-headings .sep.has-width.w60 { width: 60px; height: 2px; }
 .themesflat-testimonials .sep.has-width.accent-bg,
-.themesflat-headings .sep.has-width.accent-bg { background-color: #ffc30c; }
+.themesflat-headings .sep.has-width.accent-bg { background-color: #e32529;margin-left: auto;margin-right: auto; }
 
 .themesflat-headings .sep.border-color-light .sep-icon-after,
 .themesflat-headings .sep.border-color-light .sep-icon-before { border-color: #777; }
 
 /* Style 1 */
-.themesflat-headings.style-1 .heading { font-size: 28px; line-height: 58px;}
+.themesflat-headings.style-1 .heading { font-size: 28px; line-height: 58px;color:#e3232c;text-align: center;}
 .themesflat-headings.style-1 .sub-heading { font-size: 16px; line-height: 32px; margin-top: 16px;  }
 
 /* Style 2 */
@@ -123,7 +93,7 @@
 .themesflat-icon-box.light-bg .icon-wrap { background-color: #f5f5f5;  position: relative; z-index: 1; }
 
 /* Color */
-.themesflat-icon-box.accent-color .icon-wrap { color: #ffc30c; }
+.themesflat-icon-box.accent-color .icon-wrap { color: #e32429; }
 
 /* Border */
 .themesflat-icon-box.border-light { border: 1px solid #f2f2f2; }
@@ -151,7 +121,7 @@
 .themesflat-icon-box.style-1 .heading { font-size: 18px; line-height: 28px; margin: 26px 0px 13px 0px; }
 .themesflat-icon-box.style-1 .sub-heading { color: #666; line-height: 26px; margin-top: 19px; }
 
-.themesflat-icon-box.style-1.light-bg .icon-wrap:before { content: ""; width: 100%; height: 100%; border-radius: 50%; background-color: #ffc30c; position: absolute; top: 0; left: 0; z-index: -1; transform: scale(0.7); -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; -ms-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; opacity: 0; visibility: hidden; }
+.themesflat-icon-box.style-1.light-bg .icon-wrap:before { content: ""; width: 100%; height: 100%; border-radius: 50%; background-color: #00abe1; position: absolute; top: 0; left: 0; z-index: -1; transform: scale(0.7); -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; -ms-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; opacity: 0; visibility: hidden; }
 
 .themesflat-icon-box.style-1.light-bg:hover .icon-wrap:before { transform: scale(1);  opacity: 1; visibility: visible;}
 
@@ -221,7 +191,7 @@
 .themesflat-list.has-icon.size-16 .icon { font-size: 16px;}
 
 /* Style 1 */
-.themesflat-list.style-1 .icon { color: #ffc30c; }
+.themesflat-list.style-1 .icon { color: #dd2a2b; }
 .themesflat-list.style-1.icon-left .item { padding-left: 24px; width: 100%; }
 .themesflat-list.style-1.icon-left.ofset-padding-32 .item { padding-left: 32px; }
 .themesflat-list.style-1 .text { color: #666; }
@@ -557,7 +527,7 @@
 .themesflat-accordions.has-icon.iconstyle-2 .accordion-item .accordion-heading > .inner:before { content: "\f067"; font-family: "FontAwesome"; color: #999; font-size: 18px; width: 49px; height: 49px; text-align: center; line-height: 49px; background-color: transparent; border-right: 1px solid #f2f2f2; }
 
 .themesflat-accordions.has-icon.iconstyle-1 .accordion-item.active .accordion-heading > .inner:before { color: #ffc30c;  }
-.themesflat-accordions.has-icon.iconstyle-2 .accordion-item.active .accordion-heading > .inner:before { content: "\f068"; color: #fff; background-color: #ffc30c; border-color: #ffc30c; }
+.themesflat-accordions.has-icon.iconstyle-2 .accordion-item.active .accordion-heading > .inner:before { content: "\f068"; color: #fff; background-color: #00abe1; border-color: #00abe1; }
 
 .themesflat-accordions.has-icon.icon-right .accordion-item .accordion-heading > .inner:before { left: auto; right: 0; }
 
@@ -615,7 +585,7 @@
 .themesflat-partner:hover .partner-default { display: none !important;  }
 .themesflat-partner:hover .partner-color { display: block !important; }
 /* Style 1 */
-.themesflat-partner.style-1 .inner { border: 1px solid #f2f2f2; padding: 23px 0px 15px 0px; cursor: pointer; -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; -ms-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; }
+.themesflat-partner.style-1 .inner {  padding: 23px 0px 15px 0px; cursor: pointer; -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; -ms-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; }
 .themesflat-partner.style-1 .thumb { width: 188px; height: 100px;  }
 /* Style 2 */
 .themesflat-partner.style-2 .thumb {width: 188px; height: 100px; }
@@ -638,7 +608,7 @@
 .themesflat-progress.style-1 .title { font-size: 14px; font-weight: 400; letter-spacing: 0.6px; }
 .themesflat-progress.style-1 .perc-wrap { font-family: 'Montserrat', sans-serif; color: #35383e; font-size: 14px; letter-spacing: 0.6px; }
 .themesflat-progress.style-1 .progress-bg { background-color: #f7f7f7; margin-top: 13px; }
-.themesflat-progress.style-1 .progress-animate { background-color: #ffc30c; }
+.themesflat-progress.style-1 .progress-animate { background-color: #e42527; }
 
 /* Request
 -------------------------------------------------------------- */
